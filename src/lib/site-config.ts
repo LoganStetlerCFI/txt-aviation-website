@@ -32,66 +32,49 @@ export const services = [
     slug: "airplane-maintenance",
     name: "Airplane Maintenance",
     description:
-      "General A&P maintenance for all types of general aviation aircraft, from routine inspections to major repairs.",
+      "General A&P maintenance for all types of general aviation aircraft, including annual and 100-hour inspections, troubleshooting, repairs, and component replacement. We take the time to identify the actual cause of a problem rather than simply addressing the symptoms, working closely with owners to explain discrepancies and prioritize repairs.",
   },
   {
     slug: "avionics-install",
     name: "Avionics Install",
     description:
-      "Avionics upgrades and installations, from panel modernization to full glass-cockpit conversions.",
+      "Avionics installations, upgrades, troubleshooting, wiring, and system integration, including glass-panel systems, GPS navigators, autopilots, and engine monitoring equipment. As a Dynon dealer with Garmin experience, we help owners move from older analog equipment to modern integrated avionics while keeping the installation clean, reliable, and properly documented.",
   },
   {
     slug: "ads-b-install",
     name: "ADS-B Install",
     description:
-      "ADS-B Out equipment installation to keep your aircraft compliant with current airspace requirements.",
+      "ADS-B Out equipment installation and troubleshooting to keep your aircraft compliant with current airspace requirements. We also perform FAA-certified transponder and pitot-static system certifications, ensuring your communication, altitude reporting, and static systems are functioning properly.",
   },
   {
     slug: "powder-coating",
     name: "Powder Coating",
     description:
-      "Durable powder coat finishing for aircraft components, built to hold up under real-world flight conditions.",
+      "Durable powder coat finishing for aircraft components, built to hold up under real-world flight conditions. A tougher, longer-lasting alternative to traditional paint for parts that see repeated wear.",
   },
   {
     slug: "sheet-metal-structure-repair",
     name: "Sheet Metal & Structure Repair",
     description:
-      "Sheet metal fabrication and structural repair to bring damaged airframes back to airworthy condition.",
+      "Sheet metal fabrication and structural repair to bring damaged airframes back to airworthy condition, including skin repairs, rib and bulkhead work, bracket fabrication, and corrosion repair. Aircraft structural repairs require precision and an understanding of aircraft construction — we restore components to spec, not just to \"good enough.\"",
   },
   {
     slug: "engine-magneto-overhaul",
     name: "Engine & Magneto Overhaul/Repair",
     description:
-      "Engine and magneto overhaul and repair performed to manufacturer specifications for dependable performance.",
-  },
-  {
-    slug: "maintenance-programs",
-    name: "Maintenance Programs",
-    description:
-      "Recurring, budget-based maintenance plans that keep your aircraft airworthy without surprise costs.",
+      "Engine and magneto inspection, troubleshooting, and repair performed to manufacturer specifications, including compression checks, ignition system work, and fuel and oil system troubleshooting. We properly diagnose the problem first, so you understand exactly what needs to be done and why.",
   },
 ];
 
 export const team = [
   {
-    name: "Theodore Latchaw",
-    title: "Director of Maintenance",
-    bio: "A&P/IA mechanic with over 20 years of experience and a strong advocate for aviation.",
-  },
-  {
-    name: "Bishoy Ibrahim",
-    title: "Chief Financial Officer",
-    bio: "Experienced accountant and skilled commercial pilot with CFI and CFII certificates.",
-  },
-  {
-    name: "Mario Alejo",
-    title: "Avionics Manager",
-    bio: "",
-  },
-  {
-    name: "Caleb Cummings",
-    title: "Engine and Magneto Manager",
-    bio: "",
+    name: "Mario Alejo Jr.",
+    title: "Owner / Lead Technician",
+    bio: [
+      "Mario is the owner of TXT Aviation and has experience in aircraft maintenance and aviation systems spanning aircraft powerplants, avionics installation and troubleshooting, electrical systems, sheet metal and structural repairs, inspections, and aircraft modifications.",
+      "Mario has a particular interest in complex aircraft projects and avionics modernization. He is focused on continuing to expand TXT Aviation's capabilities and developing the company into a trusted maintenance provider for more complex aircraft, including twin-engine and turbine-powered aircraft.",
+    ],
+    photo: null,
   },
 ];
 

@@ -1,12 +1,21 @@
+import Image from "next/image";
 import Link from "next/link";
+import { basePath } from "@/lib/base-path";
 import { navLinks, siteConfig } from "@/lib/site-config";
 
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-navy-800/10 bg-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/" className="text-lg font-bold tracking-tight text-navy-900">
-          {siteConfig.name}
+        <Link href="/" className="shrink-0">
+          <Image
+            src={`${basePath}/images/TXT_Aviation_logo_transparent.png`}
+            alt="TXT Aviation"
+            width={1966}
+            height={582}
+            priority
+            className="h-8 w-auto sm:h-10"
+          />
         </Link>
         <nav className="flex items-center gap-8">
           {navLinks.map((link) => (
